@@ -3,40 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4zM2V/SxNT2h37pn%CvZqSC6n5vSY8rIq1T6d3S29vPD/GD1r422yqX7j/AZ3No14bQ2u7buQ04OqL2AoT54lNmw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
-      <a href="">
-        <img src="images/logo.jpg" alt="ws-logo" width="115" height="24" />
-      </a>
       <nav>
+        <a href="./index.html" class="logo">Web<span>Studio</span></a>
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="" class="menu-nav">Studio</a></li>
+          <li><a href="" class="menu-nav">Portfolio</a></li>
+          <li><a href="" class="menu-nav">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+11-(000)-111-11-11">+11-(000)-111-11-11</a>
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
       </address>
     </header>
     <main>
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button type="button" class="button">Order Service</button>
       </section>
       <section>
+        <h2>Info</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -69,11 +82,11 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="team">Our Team</h2>
         <ul>
           <li>
             <img
-              src="images/team-card-mark.jpg"
+              src="./images/team-card-mark.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
@@ -83,7 +96,7 @@
           </li>
           <li>
             <img
-              src="images/team-card-tom.jpg"
+              src="./images/team-card-tom.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
@@ -93,7 +106,7 @@
           </li>
           <li>
             <img
-              src="images/team-card-camila.jpg"
+              src="./images/team-card-camila.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
@@ -103,7 +116,7 @@
           </li>
           <li>
             <img
-              src="images/team-card-daniel.jpg"
+              src="./images/team-card-daniel.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
@@ -117,67 +130,35 @@
         <h2>Our Portfolio</h2>
         <ul>
           <li>
-            <img
-              src="images/banking-app.jpg"
-              alt="banking-app"
-              width="360"
-              height="300"
-            />
+            <img src="./images/banking-app.jpg" alt="Banking App" />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
-
           <li>
-            <img
-              src="images/cashless-payment.jpg"
-              alt="cashless-payment"
-              width="360"
-              height="300"
-            />
+            <img src="./images/cashless-payment.jpg" alt="Cashless Payment" />
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
-
           <li>
-            <img
-              src="images/meditation-app.jpg"
-              alt="meditation-app"
-              width="360"
-              height="300"
-            />
+            <img src="./images/meditation-app.jpg" alt="Meditation App" />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
-
           <li>
-            <img
-              src="images/taxi-service.jpg"
-              alt="taxi-service"
-              width="360"
-              height="300"
-            />
+            <img src="./images/taxi-service.jpg" alt="Taxi Service" />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
-
           <li>
             <img
-              src="images/screen-illustrations.jpg"
-              alt="screen-illustrations"
-              width="360"
-              height="300"
+              src="./images/screen-illustrations.jpg"
+              alt="Screen Illustrations"
             />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
-
           <li>
-            <img
-              src="images/online-courses.jpg"
-              alt="online-courses"
-              width="360"
-              height="300"
-            />
+            <img src="./images/online-courses.jpg" alt="Online Courses" />
             <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
@@ -185,10 +166,8 @@
       </section>
     </main>
     <footer>
-      <a href=""
-        ><img src="images/logo.jpg" alt="ws-logo" width="115" height="24"
-      /></a>
-      <p>
+      <a href="./index.html" class="footer-logo">Web<span>Studio</span></a>
+      <p class="footer-dscr">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
