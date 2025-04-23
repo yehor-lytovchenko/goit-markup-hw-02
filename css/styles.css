@@ -12,6 +12,7 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .logo {
@@ -88,6 +89,7 @@ ul {
   text-align: center;
   color: #2e2f42;
   background: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .title-third {
