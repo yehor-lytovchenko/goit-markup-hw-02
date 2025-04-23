@@ -8,6 +8,12 @@ ul {
   list-style-type: none;
 }
 
+.text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -15,6 +21,7 @@ ul {
   line-height: 117%;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
@@ -25,6 +32,7 @@ ul {
   line-height: 117%;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #2e2f42;
 }
 
@@ -33,6 +41,7 @@ ul {
   font-size: 16px;
   line-height: 150%;
   color: #2e2f42;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -41,10 +50,15 @@ ul {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .contacts {
   font-size: 16px;
   line-height: 150%;
   color: #434455;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -53,12 +67,35 @@ ul {
   color: #404bbf;
 }
 
+.section {
+  background-color: #2e2f42;
+}
+
 .title {
+  text-align: center;
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   color: #fff;
-  background-color: #2e2f42;
+}
+
+.title-second {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  background: #f4f4fd;
+}
+
+.title-third {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .button {
@@ -66,6 +103,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
 }
@@ -75,27 +113,18 @@ ul {
   background: #404bbf;
 }
 
-h2 {
+.section-third {
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
+  background-color: #f4f4fd;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
-}
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-}
 .team {
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
@@ -107,9 +136,10 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+  letter-spacing: 0.03em;
 }
 
-.footer-logo span {
+.footer-logo .span {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -117,8 +147,11 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   color: #f4f4fd;
+  letter-spacing: 0.03em;
 }
 
 .footer-dscr {
   color: #f4f4fd;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
